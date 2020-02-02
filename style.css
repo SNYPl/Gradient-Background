@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+}
+
+body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, #fff214, #67d85a, #e66465);
+    /* height: 100%; */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+    margin: 65px 0;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    display: inline-block;
+}
+
+.btn-copy {
+    border-radius: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: rgb(103, 187, 236);
+    border: 1px solid red;
+}
+
+.btn-copy:hover {
+    background-color: rgb(205, 48, 140);
+    color: white;
+    transform: scale(1.3);
+}
+
+.btn {
+    border-radius: 20px;
+    font-size: 14px;
+    position: absolute;
+    font-weight: bold;
+    width: 80px;
+    height: 35px;
+    opacity: 0.8;
+    cursor: pointer;
+    background: linear-gradient(to right, red, yellow, green);
+    border: 1px solid red;
+}
+
+.btn:hover {
+    background-color: #e66465;
+    color: white;
+    transform: scale(1.2);
+}
+
+.btn-left {
+    left: 3%;
+    top: 46%;
+}
+
+.btn-right {
+    right: 3%;
+    top: 46%;
+}
+
+.btn-top {
+    top: 2%;
+    right: 46%
+}
+
+.btn-bottom {
+    bottom: 5%;
+    font-size: 14px;
+    width: 100px;
+    right: 46%
+}
